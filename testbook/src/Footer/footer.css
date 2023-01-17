@@ -1,0 +1,88 @@
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(29, 82, 82);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 60px 0 60px 0;
+}
+.footer-one{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-one-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.footer-one-body div{
+    margin-left: 4rem;
+}
+.footer-one span{
+    font-size: 25px;
+    margin-left: 4rem;
+    color: aliceblue;
+    
+}
+.footer a,li{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(165, 158, 158);
+    font-size: 17px;
+    margin: 10px 0 0 0;
+}
+.footer-one-body a:hover{
+    text-decoration: underline;
+}
+
+.footer-two{
+    width: 300px;
+    height: 70px;
+    background-color: aliceblue;
+    position: relative;
+}
+.footer-two a:nth-child(2){
+    position: absolute;
+    left: 70px;
+    font-size: 18px;
+    color: blue;
+}
+.footer-two a:nth-child(2):hover{
+    text-decoration: underline;
+}
+.footer-two a:nth-child(3){
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    bottom: 10px;
+    text-align: center;
+    left: 70px;
+    color: rgb(102, 101, 99);
+    border: 1.5px solid rgb(160, 160, 168);
+    border-radius: 4px;
+}
+.footer-two span{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 15px;
+}
+.footer-two img{
+    height: 50px;
+    left: 15px;
+    top: 10px;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer-two{
+        margin: 70px 0 0 4rem;
+    }
+}

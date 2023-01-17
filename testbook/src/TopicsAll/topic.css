@@ -1,0 +1,17 @@
+.topic{
+    max-width: 60rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    gap: 2.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .topic{
+        display: grid;
+        grid-template-columns: 40% 40%;
+
+    }    
+}
